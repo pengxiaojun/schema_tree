@@ -36,11 +36,9 @@ schema描述文件一种类似xml的自描述语言,比xml更简洁，采用json
 	]
 }
 
-`
 
 ### schema例子1
 单对像工作:
-`
 {
 	'name':'root',
 	'attr':
@@ -68,11 +66,10 @@ schema描述文件一种类似xml的自描述语言,比xml更简洁，采用json
 		}
 	]
 }
-`
+
 
 ### schema例子2
 多对像协同工作
-`
 {
 	'name':'birthday',
 	'attr':
@@ -111,7 +108,6 @@ root.birthday.month =122
 root.birthday.day =123
 
 
-`
 
 ### schema支持的功能
 - 界面自动生成
